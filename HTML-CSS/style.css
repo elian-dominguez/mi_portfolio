@@ -1,0 +1,285 @@
+body {
+	/* background-color:#041F4F; /* color de fondo */
+  margin:0;
+  background-image: linear-gradient(to bottom, #E35200, #FFCE00);
+	background-position: center;
+	background-repeat: repeat;
+ 	text-align: center;  
+  font-family: 'Baloo Bhai', cursive;
+	/* background-size: cover; /* para que este completamente cubierto 
+	background-repeat: no-repeat; no-repeat, repeat-y, repeat-x */
+}	
+h2 {
+  padding-top: 30px;
+  color: white;
+  margin-right: 390px;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  text-decoration: underline; 
+  font-size: 24px;
+}
+h3 {
+  color: white;
+  letter-spacing: 5px;
+  word-spacing: 2px;
+  text-decoration: underline; 
+  text-align: center;
+  font-size: 24px;
+}
+.main__socialnetworkprimary{
+  height: 35px;
+  width: 35px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.main__socialnetworksecondary{
+  height: 35px;
+  width: 35px;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.header__logo{
+  height: 160px;
+  width: 160px;
+  background-color: inherit;
+  margin-top: 20px;
+}
+.main__logo{
+  height: 260px;
+  width: 260px;
+  margin-left:50px;
+  margin-top: 200px;
+  clear: left
+}
+.main__address{
+  margin-top: 40px;
+  margin-left: 0px;
+  clear: left;
+  text-align: center;
+}
+fieldset{
+ border-color: white;
+ background-color: black;
+ color: white;
+}
+legend{
+  border: 2px groove white;
+  background-color: black;
+  padding: 10px;
+}
+form{
+  margin-top: 20px;
+  border-color: black;
+  float:right;
+  margin-right: 200px;
+}
+textarea{
+  margin-bottom: 20px;
+}
+.main__menuimages--chip{
+  border: 2px solid white;
+  height: 350px;
+  width: 280px;
+  float:left; 
+  margin-left: 235px;
+  margin-bottom: 70px;
+  margin-top: 50px;
+}
+.main__menuimages--drinks{
+  border: 2px solid white;
+  float:left;
+  height: 200px;
+  width: 450px;
+  margin-left: 150px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.main__menuimages{
+  float:left;
+  display: flex;
+  flex-direction: column;
+}
+.main__images{
+  display: flex;
+  justify-content: space-between;
+}
+video{
+  height: 440px;
+  width: 400px;
+  text-decoration: none;
+  border:none;
+  margin-top: 80px;
+}
+.main__images--primary{
+  height: 400px;
+  width: 350px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 80px;
+  border: 2px solid white;
+}
+.main__form--checkbox{
+  margin-bottom: 30px;
+}
+.main__images--secondary{
+  float:right;
+  height: 400px;
+  width: 350px;
+  margin-right: 50px;
+  margin-top: 80px;
+  border: 2px solid white;
+}
+.main__benefit{
+  border: 2px solid white;
+  background-color: black;
+  color:white;
+  padding: 15px;
+  margin-top: 80px;
+}
+.main__menubutton {
+  margin-top: 40px;
+  background-color: black;
+  text-decoration: none;
+  border: none;
+  font-family: 'Baloo Bhai', cursive;
+  font-size: 20px;
+  margin-left: 100px;
+}
+.main__menubutton:hover{
+  background: grey
+}
+.t1,.t2,.t3,.t4 a{
+	  letter-spacing: 4px;
+  	word-spacing: 8px;
+  	line-height: 20px; 
+    text-align: center;
+}
+#caja {
+	/* width /* ancho */ 
+	background-color: white;			
+	height: 80px;						/* altura */
+	border: 2px solid black;			/* bordes */
+	margin: 20px 250px 12px 250px;		/* margenes */
+	padding: 20px;						/* relleno */
+	overflow: scroll;
+}
+div{
+text-align: center;
+  clear:left;
+}
+
+hr {
+  border-color: black;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  clear: left;
+}
+.footer{
+  margin-top: 270px;
+  margin-bottom: 50px;
+}
+
+/* The navigation menu */
+.header__navigation {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  overflow: hidden;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
+}
+p{
+  font-size: 20px;
+  clear: right;
+  word-spacing: 10px;
+  line-height: 40px;  
+  text-align: left;
+  margin: 10px 100px 10px 100px;
+  padding: 10px 100px 10px 60px; 
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+/* Navigation links */
+.header__navigation a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.pie{
+  color:black;
+  text-decoration: none;
+  margin-bottom: 1000px;
+  padding-top: 1000px;
+}
+.footer__link{
+  color: black;
+  text-decoration: underline;
+  margin-left: 20px;
+  margin-top: 100px;
+}
+.footer__information{
+  text-align: center;
+}
+/* The subnavigation menu */
+.header__navigation--secondary {
+  float: left;
+  overflow: hidden;
+  display: inline-block;
+  margin: 0px 100px;
+}
+
+/* Subnav button */
+.header__navigation--secondary .header__subnavbutton {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 15px 60px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.header__navigation a:hover, .header__navigation--secondary:hover .header__subnavbutton {
+  background-color: grey;
+}
+
+/* Style the subnav content - positioned absolute */
+.header__subnav--content {
+  padding-left: 582px;
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: grey;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.header__subnav--content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.header__subnav--content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.header__navigation--secondary:hover .header__subnav--content {
+  display: block;
+}
+footer{
+  margin-bottom: 30px;
+}
